@@ -1,0 +1,18 @@
+Close and Zero Attempts Report
+Allows an instructor to easily close attempts- including the ability to close all overdue exams in two clicks.
+Also allows instructors to create "null" or "zero" attempts for users who did not attempt the quiz- which will allow them to review a quiz as though they had submitted an empty quiz.
+
+Authored by Kyle Temkin, working for Binghamton University <http://www.binghamton.edu>
+
+Will include a cron script which can be used to automatically close/zero quiz attempts afte  their due date.
+
+To install Moodle 2.1+ using git, execute the following commands in the root of your Moodle install:
+
+        git clone git://github.com/ktemkin/moodle-report-closezero.git mod/quiz/report/closezero
+    echo 'mod/quiz/report/closezero' >> .git/info/exclude
+
+Or, extract the following zip in your_moodle_root/mod/quiz/report/closezero:
+
+    https://github.com/ktemkin/moodle-qtype-report-closezero/zipball/master
+
+
