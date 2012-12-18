@@ -26,6 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2011051200;
-$plugin->requires = 2011060313;
+$plugin->version  = 2012121800;
+$plugin->requires = 2012062503;
+
 $plugin->component = 'quiz_closezero';
