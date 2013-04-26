@@ -18,10 +18,10 @@ Installation Instruction
 
 To install Moodle 2.1+ using git, execute the following commands in the root of your Moodle install:
 
-    git clone git://github.com/bumoodle/moodle-report_closezero.git mod/quiz/report/closezero
+    git clone git://github.com/bumoodle/moodle-quiz_closezero.git mod/quiz/report/closezero
     echo 'mod/quiz/report/closezero' >> .git/info/exclude
 
 Or, extract the following zip in your_moodle_root/mod/quiz/report/closezero:
 
-    https://github.com/bumoodle/moodle-report_closezero/zipball/master
+    https://github.com/bumoodle/moodle-quiz_closezero/zipball/master
 
