@@ -179,7 +179,7 @@ class quiz_closezero_report extends quiz_overview_report
         }
 
         //determine if the quiz contains any questions
-        $have_questions = quiz_questions_in_quiz($quiz->questions);
+        $have_questions = quiz_has_questions($quiz->id);
         
         //handle the cases in which the quiz is empty, or there are no relevant students
         if (!$have_questions)
